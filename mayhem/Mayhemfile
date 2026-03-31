@@ -1,0 +1,6 @@
+project: fluxsort
+target: fluxsort-fuzz
+
+cmds:
+    - cmd: ./fluxsort-fuzz
+      libfuzzer: true
