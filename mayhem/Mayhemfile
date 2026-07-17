@@ -1,0 +1,6 @@
+project: savantenvs/fluxsort
+target: fluxsort-fuzz
+
+cmds:
+  - cmd: /mayhem/fluxsort-fuzz
+    libfuzzer: true
