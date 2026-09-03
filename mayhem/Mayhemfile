@@ -1,0 +1,6 @@
+project: savantenvs/fluxsort-repro-buggy-mhh-run-7
+target: fluxsort-fuzz
+
+cmds:
+  - cmd: /mayhem/fluxsort-fuzz
+    libfuzzer: true
