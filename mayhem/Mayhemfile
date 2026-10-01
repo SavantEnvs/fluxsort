@@ -1,0 +1,7 @@
+project: savantenvs/fluxsort
+target: fluxsort-fuzz-buggy-mhh-run-7
+# origin: https://app.mayhem.security/mayhemheroes/fluxsort/fluxsort-fuzz/7
+
+cmds:
+  - cmd: /mayhem/fluxsort-fuzz
+    libfuzzer: true
